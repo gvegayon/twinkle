@@ -34,7 +34,7 @@ twinkle <- function(
   tail       = 100,
   stepsize   = .002,
   deg_from   = -pi/8,
-  deg_to     = pi/8,
+  deg_to     = pi/4,
   col_decay_rate = 2,
   size_decay_rate = .99,
   stargen   = function(n) {
@@ -71,7 +71,7 @@ twinkle <- function(
       maxColorValue = 255
       )
 
-    theta <- theta + stats::runif(n, -deg_from, deg_to)/i
+    theta <- theta + stats::runif(n, deg_from, deg_to)/i
     x <- x + cos(theta)*stepsize
     y <- y + sin(theta)*stepsize
 
