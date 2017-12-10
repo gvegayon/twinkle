@@ -5,6 +5,15 @@ twinkle
 
 Motivated by [@ikashnitsky](https://twitter.com/ikashnitsky), who [shared the snowflakes](https://twitter.com/ikashnitsky/status/937786580231696384) he made for his 3yo daughter, I created this R package that does something similar with one of Mateo's, my 2yo, favorite things, stars :).
 
+Install
+=======
+
+To install it you can use `devtools`
+
+``` r
+devtools::install_github("gvegayon/twinkle")
+```
+
 Example
 -------
 

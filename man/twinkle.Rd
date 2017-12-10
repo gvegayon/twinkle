@@ -6,8 +6,8 @@
 \alias{estrellita}
 \title{Twinkle twinkle little start}
 \usage{
-twinkle(n = 200, cols = c("white", "yellow", "gold"), tail = 200,
-  stepsize = 0.002, deg_from = -pi/8, deg_to = pi/8, col_decay_rate = 2,
+twinkle(n = 500, cols = c("white", "yellow", "gold"), tail = 100,
+  stepsize = 0.002, deg_from = -pi/8, deg_to = pi/4, col_decay_rate = 2,
   size_decay_rate = 0.99, stargen = function(n) {     stats::rbeta(n, 2,
   5)/10 }, xlim = c(-2, 2), ylim = c(-2, 2), bg = "#041836FF")
 }
